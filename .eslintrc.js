@@ -50,9 +50,12 @@ module.exports = {
         endOfLine: 'auto',
         useTabs: false,
         singleQuote: true,
-        printWidth: 120,
+        printWidth: 130,
         jsxSingleQuote: true
       }
-    ]
+    ],
+    '@typescript-eslint/no-explicit-any': 'warn',
+    '@typescript-eslint/no-unused-vars': 'off',
+    'import/named': 'off'
   }
 }
